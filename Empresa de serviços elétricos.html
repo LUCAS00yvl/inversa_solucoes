@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eletriza - Serviços Elétricos</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 36px;
+    }
+
+    nav {
+      background-color: #0059b3;
+      text-align: center;
+      padding: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      background-color: white;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    section h2 {
+      color: #0059b3;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 15px;
+    }
+
+    .galeria img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 8px;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    form button {
+      padding: 10px 20px;
+      background-color: #0059b3;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: #004080;
+    }
+
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Eletriza</h1>
+    <p>Serviços Elétricos com Qualidade e Segurança</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#portfolio">Portfólio</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="home">
+    <h2>Bem-vindo à Eletriza</h2>
+    <p>A Eletriza é uma empresa especializada em serviços elétricos residenciais, comerciais e industriais. Oferecemos soluções seguras, modernas e eficientes para sua necessidade.</p>
+    <img src="https://via.placeholder.com/800x300?text=Equipe+Eletriza" alt="Equipe Eletriza" style="margin-top:20px; width:100%; border-radius: 8px;">
+  </section>
+
+  <section id="servicos">
+    <h2>Nossos Serviços</h2>
+    <ul>
+      <li>Instalação de sistemas elétricos completos</li>
+      <li>Manutenção preventiva e corretiva</li>
+      <li>Automação residencial e comercial</li>
+      <li>Instalação de iluminação LED</li>
+      <li>Laudos técnicos e projetos elétricos</li>
+    </ul>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfólio</h2>
+    <p>Alguns dos nossos projetos recentes:</p>
+    <div class="galeria">
+      <img src="https://via.placeholder.com/300x200?text=Projeto+1" alt="Projeto 1">
+      <img src="https://via.placeholder.com/300x200?text=Projeto+2" alt="Projeto 2">
+      <img src="https://via.placeholder.com/300x200?text=Projeto+3" alt="Projeto 3">
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Fale Conosco</h2>
+    <p>Preencha o formulário ou entre em contato pelos canais abaixo:</p>
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <textarea rows="5" placeholder="Sua mensagem..." required></textarea>
+      <button type="submit">Enviar Mensagem</button>
+    </form>
+    <p style="margin-top:20px;">
+      📞 (41) 99999-0000<br>
+      ✉️ contato@eletriza.com.br<br>
+      📍 Curitiba - PR
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Eletriza Serviços Elétricos. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
